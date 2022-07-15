@@ -16,7 +16,7 @@ exports.execute = async (client, message, args) => {
      
   const uptime = new MessageEmbed()
   .setAuthor({ name: message.author.tag, iconURL: message.author.avatarURL({ dynamic: true, format: 'png', size: 1024 })})
-  .setDescription(`${message.author}, <@${client.user.id}> adlı bot "\`${output}\`"dir çalışmakta.`)
+  .setDescription(`<@${client.user.id}> adlı bot "\`${output}\`"dir çalışmakta.`)
   .setFooter({ text: message.author.tag, iconURL: message.author.avatarURL({ dynamic: true, format: 'png', size: 1024 })})
   .setTimestamp()
   message.channel.send({ embeds: [uptime] })

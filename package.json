@@ -9,9 +9,11 @@
   "author": "This-null",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "^13.7.0",
+    "axios": "^0.27.2",
+    "discord.js": "^13.8.1",
     "fs": "^0.0.1-security",
-    "moment": "^2.29.3",
-    "request": "^2.88.2"
+    "moment": "^2.29.4",
+    "quick.db": "^9.0.5",
+    "request": "^2.12.0"
   }
 }

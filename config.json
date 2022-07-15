@@ -1,15 +1,6 @@
 {
-
-
-
     "prefix": ".",
-    "sunucuIP": "", // Örnek play.mekcraft.net
+    "sunucuIP": "mc.mekcraft.com",
     "owner": "",
     "token": ""
-
-
-
-
-
 }
-

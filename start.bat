@@ -1,5 +1,5 @@
 echo off
-title Status
+title MC Status
 cls
 :a
 node null.js
