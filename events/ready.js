@@ -11,7 +11,7 @@ function verial() {
 		if(res.data && res.data.players) {
             
             let playerCount = res.data.players.online || 0
-            const oyun = `Aktif ${playerCount} kişi  ${playerCount > 1 ? 's' : ''}`;
+            const oyun = `Aktif ${playerCount} kişi  ${playerCount > 1 ? '' : ''}`;
             client.user.setActivity(`${oyun}`, {type: "LISTENING"});
 			console.log('Veriler Yenilendi.', playerCount)
 		}
